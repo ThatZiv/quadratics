@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Quadratic Calculator</title>
+  <meta name="author" content="name">
+  <meta name="description" content="description here">
+  <meta name="keywords" content="keywords,here">
+  <link rel="stylesheet" href="stylesheet.css" type="text/css">
+  </head>
+  <body>
+  
+<div class="container center">
+    <h2>Quadratic Calculator</h2>
+<h3 id='standard'>ax² + bx + c</h3>    
+<label for="#standard">Standard Form</label>
+<h4 id="output2"></h4>
+
+    <input placeholder="A" id="a" type="text">
+    <input placeholder="B" id="b" type="text">
+    <input placeholder="C" id="c" type="text">
+
+  
+    <br>
+    <h2 id="output"></h2>
+<label id='inter' for="#output3a"></label> 
+<br>
+   <p3 id='output3a'></p3> 
+   <p3 id='output3b'></p3> 
+   <br>
+   <label id="factors" for="#factors"></label><br>
+   <p4 id="output4"></p4>
+   <br>
+    <button class="btn blue" id="big">Calculate</button>
+    <h3>Graph</h3>
+    <center>
+    <br>
+      <button class='btn blue' id="small">Toggle Graphs</button>
+    <div id="calculator" style="width: 800px; height: 450px;"></div>
+  </center>
+  </div>
+<footer>Copyright &copy; <a href='https://github.com/thatziv'>Zavaar Shah</a></footer>
+<script
+src="https://code.jquery.com/jquery-3.3.1.js"
+integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    <script src="https://www.desmos.com/api/v1.1/calculator.js?apiKey=dcb31709b452b1cf9dc26972add0fda6"></script>
+    <script src="calc.js"></script>
+  </body>
+</html>
